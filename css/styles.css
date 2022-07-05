@@ -1,0 +1,33 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+/*цвет заголовков color: #212121; */
+/*цвет текст color: #757575; */
+/* цвет аксента color: #2196F3; */
+/*цвет главного заголовка color: #FFFFFF; */
+/* цвет ссылки и контактов color: rgba(255, 255, 255, 0.6);	 */
+
+/* Site navigation */
+
+.link {
+  text-decoration: none;
+}
+
+.logo-link {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo {
+  color: #2196f3;
+}
