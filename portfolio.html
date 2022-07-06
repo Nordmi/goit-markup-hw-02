@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -13,7 +19,9 @@
         <a class="logo-link link" href="./index.html"><span class="logo">Web</span>Studio</a>
         <ul class="nav-list list">
           <li class="nav-item"><a class="nav-link link" href="./">Студия</a></li>
-          <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
+          <li class="nav-item">
+            <a class="nav-link current" href="./portfolio.html">Портфолио</a>
+          </li>
           <li class="nav-item"><a class="nav-link link" href="./">Контакты</a></li>
         </ul>
       </nav>
@@ -28,17 +36,27 @@
     </header>
     <main class="portfolio-page">
       <ul class="button-list list">
-        <li class="button-item"><button class="button" type="button">Все</button></li>
-        <li class="button-item"><button class="button" type="button">Веб-сайты</button></li>
-        <li class="button-item"><button class="button" type="button">Приложения</button></li>
-        <li class="button-item"><button class="button" type="button">Дизайн</button></li>
-        <li class="button-item"><button class="button" type="button">Маркетинг</button></li>
+        <li class="button-item">
+          <button class="button button-secondary" type="button">Все</button>
+        </li>
+        <li class="button-item">
+          <button class="button button-secondary" type="button">Веб-сайты</button>
+        </li>
+        <li class="button-item">
+          <button class="button button-secondary" type="button">Приложения</button>
+        </li>
+        <li class="button-item">
+          <button class="button button-secondary" type="button">Дизайн</button>
+        </li>
+        <li class="button-item">
+          <button class="button button-secondary" type="button">Маркетинг</button>
+        </li>
       </ul>
       <section class="project">
         <h1 class="project-title">Наши проекты</h1>
         <ul class="project-title list">
           <li class="project-item">
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 class="project-img"
                 src="./images/example-work/techno.jpg"
@@ -51,7 +69,7 @@
             >
           </li>
           <li class="project-item">
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 class="project-img"
                 src="./images/example-work/poster.jpg"
@@ -66,7 +84,7 @@
             >
           </li>
           <li class="project-item">
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 class="project-img"
                 src="./images/example-work/restaraunt.jpg"
@@ -79,7 +97,7 @@
             >
           </li>
           <li class="project-item">
-            <a href="#">
+            <a class="link" href="#">
               <img
                 class="project-img"
                 src="./images/example-work/project-prime.jpg"
@@ -88,11 +106,11 @@
                 height="294"
               />
               <h2 class="project-subtitle">Проект <span lang="eu">Prime</span></h2>
-              <p class="jobs-text">Маркетинг</p></a
+              <p class="project-text">Маркетинг</p></a
             >
           </li>
           <li class="project-item">
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 class="project-img"
                 src="./images/example-work/project-boxes.jpg"
@@ -105,7 +123,7 @@
             >
           </li>
           <li class="project-item">
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 class="project-img"
                 src="./images/example-work/inspiration.jpg"
@@ -118,7 +136,7 @@
             >
           </li>
           <li class="project-item">
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 class="project-img"
                 src="./images/example-work/editon.jpg"
@@ -131,7 +149,7 @@
             >
           </li>
           <li class="project-item">
-            <a href="#">
+            <a class="link" href="#">
               <img
                 class="project-img"
                 src="./images/example-work/project-lab.jpg"
@@ -144,7 +162,7 @@
             >
           </li>
           <li class="project-item">
-            <a href="#"
+            <a class="link" href="#"
               ><img
                 class="project-img"
                 src="./images/example-work/growing-business.jpg"
