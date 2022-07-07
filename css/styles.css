@@ -94,6 +94,11 @@ body {
   letter-spacing: 0.06em;
 }
 
+.button-primary:hover,
+.button-primary:focus {
+  background: #188ce8;
+}
+
 /* Features */
 
 .features-subtitle {
